@@ -5,7 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 authors = [{ name = "heiwa4126", email = "heiwa4126@gmail.com" }]
 requires-python = ">=3.10"
-dependencies = ["h4-hello>=0.1.15"]
+dependencies = [
+    "h4-hello",
+]
 
 [project.scripts]
 ex-h4-hello2 = "ex_h4_hello2.core:main"
@@ -13,3 +15,6 @@ ex-h4-hello2 = "ex_h4_hello2.core:main"
 [build-system]
 requires = ["uv_build>=0.12.24,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv.sources]
+h4-hello = { git = "https://github.com/heiwa4126/h4-hello.git" }

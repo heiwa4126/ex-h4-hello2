@@ -11,13 +11,9 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "h4-hello", specifier = ">=0.1.15" }]
+requires-dist = [{ name = "h4-hello", git = "https://github.com/heiwa4126/h4-hello.git" }]
 
 [[package]]
 name = "h4-hello"
 version = "0.1.15"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/10/88/1e3fa18e1d54062038065351ad15467aedc549107fe4cae272f3dec0111b/h4_hello-0.1.15.tar.gz", hash = "sha256:554d54b008285e26cc796823ff58b32d591dcd45d4fb8c9e749f0fc57afc6af3", size = 3496, upload-time = "2026-10-09T00:54:06.704Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/bf/c1/87f077c95f951b6bb46a15d7aa3abfd42ff40610a0a6dfe2d38f6b6749e5/h4_hello-0.1.15-py3-none-any.whl", hash = "sha256:248624d226b4edb3a5afaf4aeaa9542a67b985249db08ad6063aeee02cf7b218", size = 4182, upload-time = "2026-10-09T00:54:05.251Z" },
-]
+source = { git = "https://github.com/heiwa4126/h4-hello.git#3cf82a0ae580c236c75b87737fb995afd11d7121" }
