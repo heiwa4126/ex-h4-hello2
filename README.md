@@ -1,4 +1,4 @@
-# ex-h4-hello
+# ex-h4-hello2
 
 - [h4-hello · PyPI](https://pypi.org/project/h4-hello/)
 - [heiwa4126/h4-hello: A practice project for publishing Python projects created with uv to PyPI with PEP740 signatures.](https://github.com/heiwa4126/h4-hello)
@@ -12,5 +12,5 @@
 clone したら、プロジェクトのルートで
 
 ```sh
-uv run ex-h4-hello
+uv run ex-h4-hello2
 ```
